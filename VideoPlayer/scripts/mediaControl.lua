@@ -22,7 +22,9 @@ function dump_table(t)
       dump_table(value)
     else
       print (tostring(key) .. " => " .. tostring(value))
-      print(variabile_della_madonna)
+      for i=1,100 do
+        print(variabile_della_madonna)
+      end
     end
   end
 end
