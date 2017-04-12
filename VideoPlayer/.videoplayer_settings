@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="root">
 	<item value="0.56640625" key="pref.editor_zoom"/>
+	<item value="Screen" key="pref.default_screen_name"/>
 </section>
