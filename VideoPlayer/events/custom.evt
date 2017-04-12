@@ -1,0 +1,12 @@
+
+ev_play_pause_song
+
+ev_start_video
+
+ev_volume_up
+
+ev_volume_down
+
+gre.media.timeupdate
+
+gre.media.videoduration
