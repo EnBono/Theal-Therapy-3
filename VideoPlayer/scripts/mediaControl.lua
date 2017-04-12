@@ -2,6 +2,8 @@
 json=require("dkjson")
 
 -- -----------------------------------------------------------------------------
+variabile_della_madonna = 0
+
 
 debugging = 1
 is_paused = 1
@@ -20,6 +22,7 @@ function dump_table(t)
       dump_table(value)
     else
       print (tostring(key) .. " => " .. tostring(value))
+      print(variabile_della_madonna)
     end
   end
 end
@@ -134,6 +137,7 @@ function media_time_update(mapargs)
   end
 
   data["video_progress_width"] = progressWidth
+  print("Modifica Time")
   print("Modifica Time")
   print("Modifica Time")
   gre.set_data(data)
