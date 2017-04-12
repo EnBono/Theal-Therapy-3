@@ -16,6 +16,8 @@ progressBarWidth = 488    -- "media_control_layer.progress_bar_control"
 -- for debugging
 -- -----------------------------------------------------------------------------
 function dump_table(t)
+
+	print("come sono belle le tette")
   for key, value in pairs(t) do
     if (type(value) == "table") then
       print("table key " .. key)
