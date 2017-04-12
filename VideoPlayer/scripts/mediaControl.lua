@@ -135,5 +135,6 @@ function media_time_update(mapargs)
 
   data["video_progress_width"] = progressWidth
   print("Modifica Time")
+  print("Modifica Time")
   gre.set_data(data)
 end
