@@ -145,4 +145,6 @@ function media_time_update(mapargs)
   print("Modifica Time")
   print("Modifica Time")
   gre.set_data(data)
+  --Questo commento resta sul master e ci aggiungo un print a caso
+  print("Print a caso")
 end
